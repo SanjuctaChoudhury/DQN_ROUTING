@@ -3,6 +3,8 @@
 
 This project implements a dynamic routing system for connecting pins in a maze environment using a combination of the A* algorithm and Deep Q-Learning (DQN). The agent dynamically selects which pin to route based on the shortest path and adjusts its strategy as paths become blocked. The goal is to optimize routing decisions while adapting to changes in the environment.
 
+
+
 **Features--**
 **1.A Algorithm for Shortest Path:** Efficient pathfinding between start and goal points in the maze.
 
@@ -15,21 +17,28 @@ This project implements a dynamic routing system for connecting pins in a maze e
 **5.Replay Buffer for Training:** Improves the agent's learning efficiency by sampling past experiences.
 
 
+
+
 **Key Components--**
 
-**A_star Algorithm-**
+**A_star Algorithm** Efficiently calculates the shortest path while considering dynamic blockages.
 
-Efficiently calculates the shortest path while considering dynamic blockages.
+**DQN (Deep Q-Network)** The DQN consists of a neural network that approximates Q-values for actions (selecting pins) given the current maze state.
 
-**DQN (Deep Q-Network)-**
-
-The DQN consists of a neural network that approximates Q-values for actions (selecting pins) given the current maze state.
-
-**Reward System-**
-
+**Reward System** 
 Successful routing: +1 - 0.01 * len(path)
-
 Failed routing: -0.1
+
+
+
+**Output--**
+After routing all pins in an episode, the following visualizations are provided (check for the commented lines):
+Initial Maze with Pins
+Final Maze with All Paths
+loss per episode 
+rewards plot
+
+
 
 **Contributions--**
 
