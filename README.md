@@ -1,7 +1,7 @@
 
 **Dynamic Maze Routing with Deep Reinforcement Learning**
 
-This project implements a dynamic routing system for connecting pins in a maze environment using a combination of the A* algorithm and Deep Q-Learning (DQN). The agent dynamically selects which pin to route based on the shortest path and adjusts its strategy as paths become blocked. The goal is to optimize routing decisions while adapting to changes in the environment.
+This project implements a dynamic routing system for connecting pins in a maze environment using a combination of the A* algorithm and Deep Q-Learning (DQN). The agent dynamically selects which pin to route based on the shortest path and adjusts its strategy as paths become blocked. The goal is to optimize routing decisions while adapting to changes in the environment. &nbsp;&nbsp;&nbsp;&nbsp;
 
 
 
